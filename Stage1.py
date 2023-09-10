@@ -22,8 +22,8 @@ async def get_info(slack_name:str, track: str):
         "current_day":day,
         "utc_time": time.isoformat(),
         "track": track,
-        "github_file_url": github_file_url,
-        "github_repo_url":github_repo_url,
+        "github_file_url": "https://github.com/eniolaomotee/HNG-StageOne/blob/main/Stage1.py",
+        "github_repo_url":"https://github.com/eniolaomotee/HNG-StageOne",
         "status_code": 200
         }
     return api  
